@@ -1,0 +1,52 @@
+body{
+    /* height: 500px;
+    width: 200px;
+    border-radius: 2px; */
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+
+    /* background: linear-gradient(150deg, rgb(46, 101, 17) , rgb(140, 87, 126) , rgb(46, 8, 94)); */
+
+}
+.box1{
+    height: 300px;
+    width: 400px;
+    border: 9px solid;
+    border-radius: 1%;
+    border-image: linear-gradient(45deg, rgb(97, 14, 85),rgb(192, 10, 10),rgb(6, 104, 6),rgb(211, 211, 61));
+    border-image-slice: 1;
+
+    background: linear-gradient(-48deg, rgb(45, 101, 17),rgb(140, 87, 126),rgb(46, 8, 94));
+
+}
+.box2{
+    margin-top: 20px;
+    height: 300px;
+    width: 400px;
+    
+    border:  90px solid;
+    
+    
+    border-image-slice: 1;
+    border-radius: 10px;
+    border:double 2px transparent;
+    border-image: linear-gradient(45deg, rgb(123, 4, 16),rgb(224, 224, 5), rgb(255, 0, 0)),linear-gradient(90deg, #833ab4, #fd1d1d, #fcb845);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    
+    background: linear-gradient(20deg, rgb(123, 81, 4), rgb(120, 14, 118), rgb(0, 0, 0));
+}
+    
+ */
+ /* .box2{
+    height: 250px;
+    width: 150px;
+    border: 5px solid #833ab4;
+
+    border-radius: 10px;
+    border: double 5px transparent;
+    background-image: linear-gradient(white , white), linear-gradient(90deg, #833ab4, #fd1d1d, #fcb845);
+    background-origin: border-box ;
+    background-clip: content-box, border-box;
+ }
